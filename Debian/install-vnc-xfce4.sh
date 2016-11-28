@@ -13,13 +13,13 @@ echo "\n ██████╗ ██████╗ ██████╗ █�
 ██║     ██║   ██║██║  ██║██╔══╝  ██║╚██╔╝██║██╔══██║██║╚██╗██║
 ╚██████╗╚██████╔╝██████╔╝███████╗██║ ╚═╝ ██║██║  ██║██║ ╚████║
  ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝"
-echo "\nInstall VNC"
+echo "\nInstall VNC XFCE4"
 
 # Then, we will install tightvncserver and XFCE4 with some useful add-ons, and an icon theme:
 apt-get install xfce4 xfce4-goodies gnome-icon-theme tightvncserver
 apt-get install iceweasel
 
-# You can add a user named vnc to your Debian Droplet by using this command:
+# You can add a user named vnc to your Debian by using this command:
 adduser vnc
 
 # Install sudo by executing this command:
